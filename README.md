@@ -1,3 +1,9 @@
+# Testprosjekt
+
+Dette prosjektet er mest laget for å lære meg sveltekit og git fra kommandolinjen. :-)
+
+Etterhvert blir det kanskje et fungerende system for høringsuttalelser som man kan bruke i det offentlige. Men det er ennå en stund til.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

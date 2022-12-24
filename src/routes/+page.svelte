@@ -7,4 +7,3 @@
 
 For-løkke som genererer "høringskort"
 
-
