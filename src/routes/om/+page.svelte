@@ -1,3 +1,3 @@
 
 <h1>Om</h1>
-<p>Om høringer</p>
+<p>Placeholder for en infoside</p>
