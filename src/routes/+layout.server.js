@@ -1,8 +1,19 @@
 
 import { saker } from '../db/saker.js'
 
-export const load = async function() {
-    const data = saker.find({})
-    console.log("Data:", data)
-    return saker.data
-}
+
+export async function load() {
+    return {
+      d: await saker.find({}).toArray()[1]
+    }
+  }
+
+/*
+export async function load() {
+    const d = saker.find({}, {limit: 2}).toArray()
+        .then( (innhold) => {
+            console.log("Data:", innhold[0].tittel)
+            }
+        )
+    }
+ */
