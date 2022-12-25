@@ -1,10 +1,7 @@
 
-import { hemmelig } from "../lib/server/secrets";
+import { saker } from '../db/saker_data.js'
 
 export function load() {
-    const d = { 
-        navn: 'TJ',
-        melding: hemmelig
-    }
+    const d = saker
     return d
 }

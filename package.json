@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tinymce/tinymce-svelte": "^1.0.0"
+		"@tinymce/tinymce-svelte": "^1.0.0",
+		"mongodb": "^4.13.0"
 	}
 }
