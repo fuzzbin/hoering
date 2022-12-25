@@ -1,7 +1,7 @@
 
-import { saker } from '../db/saker_data.js'
+import { saker } from '../db/saker'
 
-export function load() {
-    const d = saker
-    return d
+export const load = async function() {
+    const s = saker
+    return s
 }
