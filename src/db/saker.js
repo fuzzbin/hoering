@@ -1,3 +1,3 @@
-import db from './mongo'
+import db from './mongo';
 
-export const saker = db.collection('saker')
+export const saker = db.collection('saker');

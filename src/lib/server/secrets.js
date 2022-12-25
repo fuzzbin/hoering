@@ -1,2 +1,1 @@
-
-export const hemmelig = "Dette er hemmelig!"
+export const hemmelig = 'Dette er hemmelig!';
