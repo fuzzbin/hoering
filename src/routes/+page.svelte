@@ -11,13 +11,7 @@
 	kommer med skriftlige innspill
 </h2>
 <div>Placeholder for filtreringsboks</div>
-<h1>Testdata fra load()-modul: {data.users[0].name}</h1>
-
-<ul>
-	{#each data.users as u}
-		<li>{u.name}</li>
-	{/each}
-</ul>
+<h1>Testdata fra load()-modul: {data.message}</h1>
 
 For-løkke som genererer "høringskort"
 <Skjema />

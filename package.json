@@ -20,6 +20,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tinymce/tinymce-svelte": "^1.0.0",
-		"mongodb": "^4.13.0"
+		"mongodb": "^4.13.0",
+		"mongoose": "^6.8.1"
 	}
 }
