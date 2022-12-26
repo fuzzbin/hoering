@@ -1,3 +1,3 @@
 
-</script>
-<button on:click={}>Skriv data!</button>
+
+<button>Skriv data!</button>
