@@ -1,5 +1,4 @@
 <script>
-	import { each } from 'svelte/internal';
 	import Skjema from '../lib/components/Skjema.svelte';
 	export let data;
 	// console.log(data)
@@ -14,4 +13,21 @@
 <h1>Testdata fra load()-modul: {data.message}</h1>
 
 For-løkke som genererer "høringskort"
-<Skjema />
+
+<button on:click={console.log('Trykk trykk!')}>Skriv Data</button>
+
+<form method="POST">
+	<label>
+		Sak_id
+		<input name="sak_id" type="text" />
+	</label>
+	<label>
+		Tittel
+		<input name="tittel" type="text" />
+	</label>
+	<label>
+		Beskrivelse
+		<input name="beskrivelse" type="text" />
+	</label>
+	<button>Send data</button>
+</form>
